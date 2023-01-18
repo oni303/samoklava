@@ -31,27 +31,27 @@ points:
       columns:
         outer:
           key:
+            origin: [-12, -19]
+            stagger: 0
             column_net: P21
         pinky:
-          origin: [-12, -19]
-          stagger: 0
           key:
             column_net: P20
         ring:
-          stagger: 7
           key:
+            stagger: 7
             column_net: P19
         middle:
-          stagger: 5
           key:
+            stagger: 5
             column_net: P18
         index:
-          stagger: -6
           key:
+            stagger: -6
             column_net: P15
         inner:
-          stagger: -2
           key:
+            stagger: -2
             column_net: P14
       rows:
         bottom:
@@ -69,16 +69,16 @@ points:
           key:
             column_net: P18
         home:
-          spread: 21.25
-          splay: -15
-          origin: [-11.75, -9]
           key:
+            spread: 21.25
+            splay: -15
+            origin: [-11.75, -9]
             column_net: P15
         far:
-          spread: 21.25
-          splay: -15
-          origin: [-9.5, -9]
           key:
+            spread: 21.25
+            splay: -15
+            origin: [-9.5, -9]
             column_net: P14
       rows:
         thumb:
