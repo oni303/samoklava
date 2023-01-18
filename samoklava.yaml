@@ -7,7 +7,7 @@ points:
   key:
     footprints:
       choc_hotswap:
-        type: choc
+        type: mx
         params:
           hotswap: true
           reverse: true
@@ -25,71 +25,42 @@ points:
           from: =colrow
           to: =row_net
         anchor:
-          shift: [0, -5]
+          shift: [0, -5]      
   zones:
-    matrix:
-      # anchor:
-      #   rotate: 5
-      key.padding: ky
+    matrix:     
       columns:
+        outer:
         pinky:
-          stagger: 0 ky
-          spread: kx
-          key:
-            column_net: P20
+          key.origin: [-12, -19]
+          key.stagger: 0
         ring:
-          stagger: 0.7 ky
-          spread: kx
-          key:
-            column_net: P19
+          key.stagger: 7
         middle:
-          stagger: 0.2 ky
-          spread: kx
-          key:
-            column_net: P18
+          key.stagger: 5
         index:
-          stagger: -0.2 ky
-          spread: kx
-          key:
-            column_net: P15
+          key.stagger: -6
         inner:
-          stagger: -0.1 ky
-          spread: kx
-          key:
-            column_net: P14
+          key.stagger: -2
       rows:
         bottom:
-          row_net: P6
         home:
-          row_net: P5
         top:
-          row_net: P4
     thumbfan:
       anchor:
-        ref: matrix_inner_bottom
-        shift: [-1.5 kx, -1 ky]
+        ref: matrix_middle_bottom
+        shift: [10, -26]
       columns:
         near:
-          spread: kx
-          rotate: -15
-          origin: [-0.5 kx, -0.5 ky]
-          key:
-            column_net: P18
         home:
-          spread: kx
-          rotate: -15
-          origin: [-0.5 kx, -0.5 ky]
-          key:
-            column_net: P15
+          key.spread: 21.25
+          key.splay: -15
+          key.origin: [-11.75, -9]
         far:
-          spread: kx
-          rotate: -15
-          origin: [-0.5 kx, -0.5 ky]
-          key:
-            column_net: P14
+          key.spread: 21.25
+          key.splay: -15
+          key.origin: [-9.5, -9]
       rows:
         thumb:
-          row_net: P7
 outlines:
   # board dimensions according to JLCPCB: 122.28 mm x 101.05 mm
   exports:
