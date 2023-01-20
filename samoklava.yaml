@@ -25,7 +25,7 @@ points:
           from: =colrow
           to: =row_net
         anchor:
-          shift: [0, -5]      
+          shift: [0, -8]      
   zones:
     matrix:     
       columns:
