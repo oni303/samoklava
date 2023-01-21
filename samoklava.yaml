@@ -70,14 +70,14 @@ points:
             column_net: P18
         home:
           spread: 21.25
-          splay: -15
-          origin: [-11.75, -9]
+          rotate: -15
+          stagger: -3
           key:
             column_net: P15
         far:
           spread: 21.25
-          splay: -15
-          origin: [-9.5, -9]
+          rotate: -15
+          stagger: -5
           key:
             column_net: P14
       rows:
