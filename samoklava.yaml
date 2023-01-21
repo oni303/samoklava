@@ -251,14 +251,14 @@ pcbs:
         anchor:
           ref:
             - matrix_inner_top
-          shift: [20, -11]
+          shift: [20, -13]
           rotate: 270
       pad_plus:
         type: pad
         anchor:
           ref:
             - matrix_inner_bottom
-          shift: [13, 5]
+          shift: [14, 3]
           rotate: 0
         params:
           front: true
@@ -273,7 +273,7 @@ pcbs:
         anchor:
           ref:
             - matrix_inner_bottom
-          shift: [10, 5]
+          shift: [11, 3]
           rotate: 0
         params:
           front: true
@@ -314,7 +314,7 @@ pcbs:
         anchor:
           ref:
             - matrix_inner_bottom
-          shift: [17, 9]
+          shift: [17, 11]
           rotate: 180
         params:
           variant: 2_pin_th
