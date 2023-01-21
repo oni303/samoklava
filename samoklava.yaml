@@ -326,7 +326,7 @@ pcbs:
         anchor:
           ref:
             - matrix_pinky_bottom
-          shift: [0.75 kx, 30]
+          shift: [0.75 kx, 10]
         params:
           text: "corne by oni303 v0.1"
           justify: left
@@ -335,7 +335,7 @@ pcbs:
         anchor:
           ref:
             - matrix_pinky_bottom
-          shift: [0.75 kx, 30]
+          shift: [0.75 kx, 10]
         params:
           layer: B.SilkS
           text: "corne by oni303 v0.1"
