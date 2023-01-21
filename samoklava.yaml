@@ -9,6 +9,7 @@ points:
       choc_hotswap:
         type: mx_low
         params:
+          hotswap: true
           reverse: true
           keycaps: true
         nets:
@@ -76,7 +77,7 @@ points:
         far:
           spread: 21.25
           rotate: -15
-          stagger: -3
+          stagger: -5
           key:
             column_net: P14
       rows:
@@ -272,12 +273,23 @@ pcbs:
         outline: pcb
         layer: Edge.Cuts
     footprints:
-      mcu:
-        type: promicro_pretty
+      mcu_l:
+        type: promicro
+        params:
+          orientation: up
         anchor:
           ref:
             - matrix_inner_top
           shift: [20, -11]
+          rotate: 270
+      mcu_r:
+        type: promicro
+        params:
+          orientation: down
+        anchor:
+          ref:
+            - matrix_inner_top
+          shift: [22.5, -12.25]
           rotate: 270
       pad_plus:
         type: pad
