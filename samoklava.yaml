@@ -77,7 +77,7 @@ points:
         far:
           spread: 21.25
           rotate: -15
-          stagger: -5
+          stagger: -3
           key:
             column_net: P14
       rows:
@@ -273,23 +273,12 @@ pcbs:
         outline: pcb
         layer: Edge.Cuts
     footprints:
-      mcu_l:
-        type: promicro
-        params:
-          orientation: up
+      mcu:
+        type: promicro_pretty
         anchor:
           ref:
             - matrix_inner_top
           shift: [20, -11]
-          rotate: 270
-      mcu_r:
-        type: promicro
-        params:
-          orientation: down
-        anchor:
-          ref:
-            - matrix_inner_top
-          shift: [22.5, -12.25]
           rotate: 270
       pad_plus:
         type: pad
@@ -422,7 +411,7 @@ pcbs:
             - matrix_pinky_bottom
           shift: [0.75 kx, 0]
         params:
-          text: "samoklava v0.1\\nby soundmonster"
+          text: "corne by oni303 v0.1"
           justify: left
       info_r:
         type: text
@@ -432,6 +421,6 @@ pcbs:
           shift: [0.75 kx, 0]
         params:
           layer: B.SilkS
-          text: "samoklava v0.1\\nby soundmonster"
+          text: "corne by oni303 v0.1"
           justify: right mirror
 
