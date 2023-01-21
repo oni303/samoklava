@@ -251,7 +251,7 @@ pcbs:
         anchor:
           ref:
             - matrix_inner_top
-          shift: [20, -13]
+          shift: [20, -9]
           rotate: 270
       pad_plus:
         type: pad
