@@ -69,13 +69,13 @@ points:
           key:
             column_net: P18
         home:
-          spread: 20
+          spread: 21
           rotate: -15
           stagger: -3
           key:
             column_net: P15
         far:
-          spread: 20
+          spread: 21
           rotate: -15
           stagger: -3
           key:
@@ -257,7 +257,7 @@ pcbs:
         type: pad
         anchor:
           ref:
-            - matrix_inner_top
+            - matrix_inner_bottom
           shift: [23, -6]
           rotate: 0
         params:
@@ -272,7 +272,7 @@ pcbs:
         type: pad
         anchor:
           ref:
-            - matrix_inner_top
+            - matrix_inner_bottom
           shift: [23, -3]
           rotate: 0
         params:
@@ -283,30 +283,6 @@ pcbs:
           text: "B-"
         nets:
           net: GND
-      jumper_l:
-        type: jumper
-        anchor:
-          ref:
-            - matrix_inner_bottom
-          shift: [23.5, 0]
-          rotate: 270
-        params:
-          side: B
-        nets:
-          from: Bplus
-          to: RAW
-      jumper_r:
-        type: jumper
-        anchor:
-          ref:
-            - matrix_inner_bottom
-          shift: [23.5, 0]
-          rotate: 270
-        params:
-          side: F
-        nets:
-          from: Bplus
-          to: RAW
       slider_l:
         type: slider
         anchor:
@@ -338,7 +314,7 @@ pcbs:
         anchor:
           ref:
             - matrix_inner_bottom
-          shift: [17, 5]
+          shift: [17, 7]
           rotate: 180
         params:
           variant: 2_pin_th
@@ -350,7 +326,7 @@ pcbs:
         anchor:
           ref:
             - matrix_pinky_bottom
-          shift: [0.75 kx, 10]
+          shift: [0.75 kx, 30]
         params:
           text: "corne by oni303 v0.1"
           justify: left
@@ -359,7 +335,7 @@ pcbs:
         anchor:
           ref:
             - matrix_pinky_bottom
-          shift: [0.75 kx, 10]
+          shift: [0.75 kx, 30]
         params:
           layer: B.SilkS
           text: "corne by oni303 v0.1"
