@@ -77,7 +77,7 @@ points:
         far:
           spread: 21.25
           rotate: -15
-          stagger: -5
+          stagger: -3
           key:
             column_net: P14
       rows:
