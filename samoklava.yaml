@@ -30,29 +30,23 @@ points:
     matrix:     
       columns:
         outer:
-          key:
-            origin: [-12, -19]
-            stagger: 0
-            column_net: P21
+            key.origin: [-12, -19]
+            key.stagger: 0
+            key.column_net: P21
         pinky:
-          key:
-            column_net: P20
+            key.column_net: P20
         ring:
-          key:
-            stagger: 7
-            column_net: P19
+            key.stagger: 7
+            key.column_net: P19
         middle:
-          key:
-            stagger: 5
-            column_net: P18
+            key.stagger: 5
+            key.column_net: P18
         index:
-          key:
-            stagger: -6
-            column_net: P15
+            key.stagger: -6
+            key.column_net: P15
         inner:
-          key:
-            stagger: -2
-            column_net: P14
+          key.stagger: -2
+          key.column_net: P14
       rows:
         bottom:
           row_net: P6
@@ -66,20 +60,17 @@ points:
         shift: [10, -26]
       columns:
         near:
-          key:
-            column_net: P18
+            key.column_net: P18
         home:
-          key:
-            spread: 21.25
-            splay: -15
-            origin: [-11.75, -9]
-            column_net: P15
+            key.spread: 21.25
+            key.splay: -15
+            key.origin: [-11.75, -9]
+            key.column_net: P15
         far:
-          key:
-            spread: 21.25
-            splay: -15
-            origin: [-9.5, -9]
-            column_net: P14
+            key.spread: 21.25
+            key.splay: -15
+            key.origin: [-9.5, -9]
+            key.column_net: P14
       rows:
         thumb:
           row_net: P7
