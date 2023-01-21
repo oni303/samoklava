@@ -69,13 +69,13 @@ points:
           key:
             column_net: P18
         home:
-          spread: 21.25
+          spread: 23
           rotate: -15
           stagger: -3
           key:
             column_net: P15
         far:
-          spread: 21.25
+          spread: 23
           rotate: -15
           stagger: -3
           key:
