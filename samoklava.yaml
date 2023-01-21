@@ -312,7 +312,7 @@ pcbs:
         anchor:
           ref:
             - matrix_inner_bottom
-          shift: [30, 0]
+          shift: [30, -5]
           rotate: 270
         params:
           side: F
@@ -325,7 +325,7 @@ pcbs:
         anchor:
           ref:
             - matrix_inner_bottom
-          shift: [30, 0]
+          shift: [30, -5]
           rotate: 270
         params:
           side: B
@@ -338,8 +338,8 @@ pcbs:
         anchor:
           ref:
             - matrix_inner_bottom
-          shift: [17, 0]
-          rotate: 270
+          shift: [17, -5]
+          rotate: 180
         params:
           variant: 2_pin_th
         nets:
@@ -350,7 +350,7 @@ pcbs:
         anchor:
           ref:
             - matrix_pinky_bottom
-          shift: [0.75 kx, 0]
+          shift: [0.75 kx, 10]
         params:
           text: "corne by oni303 v0.1"
           justify: left
@@ -359,7 +359,7 @@ pcbs:
         anchor:
           ref:
             - matrix_pinky_bottom
-          shift: [0.75 kx, 0]
+          shift: [0.75 kx, 10]
         params:
           layer: B.SilkS
           text: "corne by oni303 v0.1"
