@@ -7,7 +7,7 @@ points:
   key:
     footprints:
       choc_hotswap:
-        type: mx_low
+        type: gatetron_low
         params:
           hotswap: true
           reverse: true
