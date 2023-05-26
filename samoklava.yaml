@@ -54,6 +54,8 @@ points:
           key:
             column_net: P14
       rows:
+        functions:
+          row_net: P8
         bottom:
           row_net: P6
         home:
