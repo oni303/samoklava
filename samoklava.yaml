@@ -54,14 +54,14 @@ points:
           key:
             column_net: P14
       rows:
-        functions:
-          row_net: P8
         bottom:
           row_net: P6
         home:
           row_net: P5
         top:
           row_net: P4
+        functions:
+          row_net: P8
     thumbfan:
       anchor:
         ref: matrix_middle_bottom
