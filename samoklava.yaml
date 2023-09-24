@@ -222,6 +222,7 @@ outlines:
       main:
         type: outline
         name: base_outline
+
 pcbs:
   top_plate:
     include_keys: false
@@ -239,12 +240,14 @@ pcbs:
         params:
           text: "JLCJLCJLCJLC"
           justify: left
+
   bottom_plate:
     include_keys: false
     outlines:
       edge:
         outline: bottom_outline
         layer: Edge.Cuts
+
   board:
     outlines:
       edge:
@@ -272,7 +275,7 @@ pcbs:
           height: 1.5
           text: "B+"
         nets:
-          net: Bplus
+          net: RAW
       pad_minus:
         type: pad
         anchor:
@@ -288,32 +291,6 @@ pcbs:
           text: "B-"
         nets:
           net: GND
-      slider_l:
-        type: slider
-        anchor:
-          ref:
-            - matrix_inner_bottom
-          shift: [30, 7]
-          rotate: 270
-        params:
-          side: F
-        nets:
-          from: RAW
-          left: Bplus
-          right: ''
-      slider_r:
-        type: slider
-        anchor:
-          ref:
-            - matrix_inner_bottom
-          shift: [30, 5]
-          rotate: 270
-        params:
-          side: B
-        nets:
-          from: RAW
-          left: ''
-          right: Bplus
       reset:
         type: button
         anchor:
