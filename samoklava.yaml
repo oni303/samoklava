@@ -53,6 +53,7 @@ points:
           stagger: -2
           key:
             column_net: P14
+
       rows:
         bottom:
           row_net: P6
@@ -62,6 +63,7 @@ points:
           row_net: P4
         functions:
           row_net: P8
+
     thumbfan:
       anchor:
         ref: matrix_middle_bottom
