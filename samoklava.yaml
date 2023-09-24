@@ -67,7 +67,7 @@ points:
     thumbfan:
       anchor:
         ref: matrix_middle_bottom
-        shift: [0, -26]
+        shift: [10, -26]
       columns:
         extra_near:
           key:
