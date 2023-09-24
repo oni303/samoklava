@@ -67,7 +67,7 @@ points:
     thumbfan:
       anchor:
         ref: matrix_middle_bottom
-        shift: [0, -28]
+        shift: [0, -26]
       columns:
         extra_near:
           key:
@@ -252,9 +252,9 @@ pcbs:
         type: promicro_pretty
         anchor:
           ref:
-            - matrix_outer_bottom
-          shift: [0, -9]
-          rotate: 0
+            - matrix_inner_top
+          shift: [20, -9]
+          rotate: 270
       pad_plus:
         type: pad
         anchor:
