@@ -69,11 +69,6 @@ points:
         ref: matrix_middle_bottom
         shift: [10, -26]
       columns:
-        extra_near:
-          spread: 21
-          rotate: -15
-          key:
-            column_net: P19
         near:
           key:
             column_net: P18
